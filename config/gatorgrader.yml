@@ -20,3 +20,4 @@ activities/digital/digital-1-functions.py:
     CountSingleLineComments --count 3 --language Python   
     
 CountCommits --count 5
+MatchCommandFragment --command "python activities/digital/digital-1-functions.py < .case" --fragment "30" --count 1 --exact 
